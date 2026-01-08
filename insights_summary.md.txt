@@ -1,52 +1,39 @@
 # Business Insights – Retail Sales Analysis
 
-## 1. Executive Summary
+1. Executive Summary
 This analysis evaluates retail sales data to uncover revenue drivers, customer behavior, profitability patterns, and operational trends.  
 The goal is to support data-driven business decisions using SQL analytics.
-
 ---
-
-## 2. Revenue & Growth Insights
+ 2. Revenue & Growth Insights
 - Repeat customers generate a significantly higher share of total revenue compared to one-time customers.
 - Month-over-Month (MoM) analysis reveals seasonal spikes, indicating demand peaks during specific periods.
 - A small percentage of customers contribute to nearly 80% of total revenue (Pareto Principle).
-
 ---
-
-## 3. Customer Behavior Insights
+ 3. Customer Behavior Insights
 - High-value customers (top NTILE segment) contribute the majority of profits.
 - Customer churn analysis identified inactive customers who have not purchased in the last 3 months.
 - Purchase frequency strongly correlates with higher Customer Lifetime Value (CLV).
-
 ---
-
-## 4. Category & Product Performance
+4. Category & Product Performance
 - Certain categories consistently outperform others in both revenue and profit margin.
 - Profit margin ranking highlights categories that generate higher returns despite lower sales volume.
 - Seasonal analysis shows category-specific demand variation between Q1 and Q4.
-
 ---
-
-## 5. Time-Based & Operational Insights
+ 5. Time-Based & Operational Insights
 - Evening hours generate the highest sales volume, indicating optimal timing for promotions.
 - Peak sales hours help identify staffing and inventory optimization opportunities.
 - Sales volatility analysis shows higher fluctuations during festive months.
-
 ---
-
-## 6. Profitability Insights
+6. Profitability Insights
 - Categories with higher sales do not always yield higher profit margins.
 - Cost analysis reveals opportunities to optimize COGS in low-margin categories.
-
 ---
-
-## 7. Business Recommendations
+7. Business Recommendations
 - Focus retention strategies on high-CLV and repeat customers.
 - Allocate marketing budgets during peak sales hours and high-growth months.
 - Optimize inventory for top-performing categories and seasonal demand.
 - Re-engage churned customers using targeted offers.
-
 ---
-
-## 8. Conclusion
+ 8. Conclusion
 This project demonstrates how advanced SQL techniques such as window functions, CTEs, ranking, and time-series analysis can deliver actionable business insights from transactional retail data.
+
